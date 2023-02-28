@@ -22,11 +22,11 @@ describe('Simple service', () => {
 
 	})
 
-	xit('should create an instance of class', () => {
+	it('should create an instance of class', () => {
 		expect(service).toBeTruthy()
 	})
 
-	fit('should calculate sum of two numbers', () => {
+	it('should calculate sum of two numbers', () => {
 		const sum = service.sum(2, 3);
 		expect(sum).toBe(5);
 	})
